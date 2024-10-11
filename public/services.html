@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secure Caring Hand</title>
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="assets/logo/SCH-logo-1.png">
+
+  <!-- bootsrrap cnd -->
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Slick CSS -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+  <!-- Font Awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- style.css -->
+  <link rel="stylesheet" href="style.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+/>
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white" role="navigation">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img src="assets/logo/SCH-logo-1.png" alt="SHC Logo">
+        </a>
+        <button class="navbar-toggler" type="button" onclick="openNav()">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <div id="mySidebar" class="sidebar" role="navigation">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="./index.html">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./services.html">Services</a>
+      <a href="./contact.html">Contact</a>
+    </div>
+
+  </header>
+
+  <div class="banner" style="padding: 6em 0 8em 0; text-align: center; width: 100%; background-image: url(http://illusion.scene360.com/wp-content/uploads/2015/01/wes-anderson-12.jpg); background-repeat: no-repeat; background-size: cover; box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5);">
+    <div class="border" style="width: 60%; margin: 0 auto; height: 47px; border: 2px solid #fff; border-bottom: 0;"></div>
+    <h2 style="margin: 0; font-size: 3em; color: #FFFFFF; text-align: center; font-weight: 300; text-transform: uppercase; letter-spacing: 0.5em; padding: 0.5em 0 0 0;">The Darjeeling Limited</h2>
+    <p style="color: #FFFFFF; font-size: 1em; font-weight: bold; margin: 1em 0 0 0; line-height: 2em; letter-spacing: 2px; padding: 0 0 2em 0;">by Wes Anderson</p>
+    <div class="border border-bottom" style="width: 60%; margin: 0 auto; height: 47px; border-top: 0; border-bottom: 2px solid #fff !important;"></div>
+  </div>
+
+
+  <section class="we-offer-area text-center bg-gray" style="padding: 60px 0; min-height: 100vh; background-color: #f9f9f9;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="site-heading text-center" style="margin-bottom: 60px; overflow: hidden; margin-top: -5px;">
+                    <h2 style="display: block; font-weight: 700; margin-bottom: 10px; text-transform: uppercase;">What we <span style="color: #00a01d;">Offer</span></h2>
+                    <h4 style="display: inline-block; padding-bottom: 20px; position: relative; text-transform: capitalize; z-index: 1;">Lorem Ipsum is simply dummy text</h4>
+                    <h4 style="position: relative; z-index: 1;"::before {
+                        background: #00a01d;
+                        bottom: 0;
+                        content: '';
+                        height: 2px;
+                        left: 50%;
+                        margin-left: -25px;
+                        position: absolute;
+                        width: 50px;
+                    }</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row our-offer-items less-carousel">
+            <!-- Single Item -->
+            <div class="col-md-4 col-sm-6 equal-height" style="margin-bottom: 30px;">
+                <div class="item" style="background: #ffffff; border-left: 2px solid #00a01d; box-shadow: 0 0 10px #cccccc; padding: 30px; position: relative; z-index: 1;">
+                    <i class="fas fa-pen-fancy" style="color: #00a01d; display: inline-block; font-size: 60px; margin-bottom: 20px;"></i>
+                    <h4 style="font-weight: 600; text-transform: capitalize;">Lorem, ipsum.</h4>
+                    <p style="margin: 0;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+            <!-- End Single Item -->
+
+            <!-- Single Item -->
+            <div class="col-md-4 col-sm-6 equal-height">
+                <div class="item" style="background: #ffffff; border-left: 2px solid #00a01d; box-shadow: 0 0 10px #cccccc; padding: 30px; position: relative; z-index: 1;">
+                    <i class="fas fa-dharmachakra" style="color: #00a01d; display: inline-block; font-size: 60px; margin-bottom: 20px;"></i>
+                    <h4 style="font-weight: 600; text-transform: capitalize;">Lorem, ipsum.</h4>
+                    <p style="margin: 0;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+            <!-- End Single Item -->
+
+            <!-- Single Item -->
+            <div class="col-md-4 col-sm-6 equal-height">
+                <div class="item" style="background: #ffffff; border-left: 2px solid #00a01d; box-shadow: 0 0 10px #cccccc; padding: 30px; position: relative; z-index: 1;">
+                    <i class="fas fa-tasks" style="color: #00a01d; display: inline-block; font-size: 60px; margin-bottom: 20px;"></i>
+                    <h4 style="font-weight: 600; text-transform: capitalize;">Lorem, ipsum.</h4>
+                    <p style="margin: 0;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+            <!-- End Single Item -->
+
+            <!-- Single Item -->
+            <div class="col-md-4 col-sm-6 equal-height">
+                <div class="item" style="background: #ffffff; border-left: 2px solid #00a01d; box-shadow: 0 0 10px #cccccc; padding: 30px; position: relative; z-index: 1;">
+                    <i class="fas fa-tachometer-alt" style="color: #00a01d; display: inline-block; font-size: 60px; margin-bottom: 20px;"></i>
+                    <h4 style="font-weight: 600; text-transform: capitalize;">Lorem, ipsum.</h4>
+                    <p style="margin: 0;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+            <!-- End Single Item -->
+
+            <!-- Single Item -->
+            <div class="col-md-4 col-sm-6 equal-height">
+                <div class="item" style="background: #ffffff; border-left: 2px solid #00a01d; box-shadow: 0 0 10px #cccccc; padding: 30px; position: relative; z-index: 1;">
+                    <i class="fas fa-recycle" style="color: #00a01d; display: inline-block; font-size: 60px; margin-bottom: 20px;"></i>
+                    <h4 style="font-weight: 600; text-transform: capitalize;">Lorem, ipsum.</h4>
+                    <p style="margin: 0;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+            <!-- End Single Item -->
+
+            <!-- Single Item -->
+            <div class="col-md-4 col-sm-6 equal-height">
+                <div class="item" style="background: #ffffff; border-left: 2px solid #00a01d; box-shadow: 0 0 10px #cccccc; padding: 30px; position: relative; z-index: 1;">
+                    <i class="fas fa-headset" style="color: #00a01d; display: inline-block; font-size: 60px; margin-bottom: 20px;"></i>
+                    <h4 style="font-weight: 600; text-transform: capitalize;">24/7 Support</h4>
+                    <p style="margin: 0;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+            <!-- End Single Item -->
+        </div>
+    </div>
+</section>
+
+<div style="margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; background: #007bff; width: 100%; min-height: 100vh; display: flex; justify-content: center; align-items: center;">
+  <div style="min-width: 1200px;">
+    <h1 style="text-align: center; margin: 50px auto 120px; color: #fff;">WHAT WE DO?</h1>
+    <div style="display: flex; justify-content: space-between;">
+      <div style="width: 350px; text-align: center; position: relative; cursor: pointer; background: #fff; margin: 0 15px; border-radius: 20px; z-index: 10; transition: transform 0.8s;">
+        <div style="width: 150px; height: 150px; background: #fff; display: flex; align-items: center; justify-content: center; font-size: 80px; border-radius: 50%; color: #007bff; border: 20px solid #007bff; margin: -75px auto 0; transition: transform 1s;">
+          <i class="fab fa-apple"></i>
+        </div>
+        <h2 style="height: 35px; width: 70%; text-align: center; font-size: 25px; text-transform: uppercase; margin: 25px auto; position: relative; background: #fff; line-height: 35px;">
+          Lorem, ipsum.
+          <span style="position: absolute; right: -5px; top: -5px; width: 40px; height: 30px; background: linear-gradient(to right, #fff, #007bff); z-index: -1;"></span>
+          <span style="position: absolute; left: -5px; bottom: -5px; width: 40px; height: 30px; background: linear-gradient(to right, #007bff, #fff); z-index: -1;"></span>
+        </h2>
+        <p style="font-size: 16px; margin: 35px 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet veniam beatae a expedita cum voluptatibus omnis iste deserunt, delectus rerum facere at doloremque enim maxime. Autem, reprehenderit maiores expedita facere mollitia, assumenda optio possimus sit inventore ut cum eum itaque asperiores incidunt nesciunt quaerat corporis officiis hic sunt ipsa distinctio!</p>
+      </div>
+      <div style="width: 350px; text-align: center; position: relative; cursor: pointer; background: #fff; margin: 0 15px; border-radius: 20px; z-index: 10; transition: transform 0.8s;">
+        <div style="width: 150px; height: 150px; background: #fff; display: flex; align-items: center; justify-content: center; font-size: 80px; border-radius: 50%; color: #007bff; border: 20px solid #007bff; margin: -75px auto 0; transition: transform 1s;">
+          <i class="fab fa-android"></i>
+        </div>
+        <h2 style="height: 35px; width: 70%; text-align: center; font-size: 25px; text-transform: uppercase; margin: 25px auto; position: relative; background: #fff; line-height: 35px;">
+          Lorem, ipsum.
+          <span style="position: absolute; right: -5px; top: -5px; width: 40px; height: 30px; background: linear-gradient(to right, #fff, #007bff); z-index: -1;"></span>
+          <span style="position: absolute; left: -5px; bottom: -5px; width: 40px; height: 30px; background: linear-gradient(to right, #007bff, #fff); z-index: -1;"></span>
+        </h2>
+        <p style="font-size: 16px; margin: 35px 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet veniam beatae a expedita cum voluptatibus omnis iste deserunt, delectus rerum facere at doloremque enim maxime. Autem, reprehenderit maiores expedita facere mollitia, assumenda optio possimus sit inventore ut cum eum itaque asperiores incidunt nesciunt quaerat corporis officiis hic sunt ipsa distinctio!</p>
+      </div>
+      <div style="width: 350px; text-align: center; position: relative; cursor: pointer; background: #fff; margin: 0 15px; border-radius: 20px; z-index: 10; transition: transform 0.8s;">
+        <div style="width: 150px; height: 150px; background: #fff; display: flex; align-items: center; justify-content: center; font-size: 80px; border-radius: 50%; color: #007bff; border: 20px solid #007bff; margin: -75px auto 0; transition: transform 1s;">
+          <i class="fas fa-globe-europe"></i>
+        </div>
+        <h2 style="height: 35px; width: 70%; text-align: center; font-size: 25px; text-transform: uppercase; margin: 25px auto; position: relative; background: #fff; line-height: 35px;">
+          Lorem, ipsum.
+          <span style="position: absolute; right: -5px; top: -5px; width: 40px; height: 30px; background: linear-gradient(to right, #fff, #007bff); z-index: -1;"></span>
+          <span style="position: absolute; left: -5px; bottom: -5px; width: 40px; height: 30px; background: linear-gradient(to right, #007bff, #fff); z-index: -1;"></span>
+        </h2>
+        <p style="font-size: 16px; margin: 35px 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet veniam beatae a expedita cum voluptatibus omnis iste deserunt, delectus rerum facere at doloremque enim maxime. Autem, reprehenderit maiores expedita facere mollitia, assumenda optio possimus sit inventore ut cum eum itaque asperiores incidunt nesciunt quaerat corporis officiis hic sunt ipsa distinctio!</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <!-- First Column: Logo and Address -->
+        <div class="col-md-4 mb-4">
+          <a href="./index.html" class="navbar-brand ">
+            <img src="./assets/logo/SCH-logo-1.png" class="mb-4" alt="Logo" height="90">
+          </a>
+          <address>
+            <h5>Secure Caring Hand Limited</h5>
+            London, UK<br>
+          </address>
+        </div>
+        <!-- Second Column: Menu -->
+        <div class="col-md-4 mb-4">
+          <h5>Menu</h5>
+          <ul class="list-unstyled">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <!-- Third Column: Contact Us -->
+        <div class="col-md-4 mb-4">
+          <h5>Contact Us</h5>
+          <ul class="list-unstyled">
+            <li><i class="fas fa-phone"></i> <i href="">+44 7540 221575</i></li>
+            <li><i class="fas fa-envelope"></i> <a href="mailto:info@example.com">info@securecaringhand.com</a></li>
+            <li>
+              <i class="fas fa-globe"></i> Follow us: <br><br>
+              <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>© 2024 Secure Caring Hand | All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  <!-- Slick JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script>
+
+
+    $(document).ready(function () {
+      $('.carousel').slick({
+        dots: true,
+        infinite: true,
+        speed: 800,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: false
+      });
+    });
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+    }
+
+  </script>
+</body>
+
+
+
+</html>
